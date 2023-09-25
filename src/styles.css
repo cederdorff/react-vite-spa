@@ -3,34 +3,34 @@
     --green: rgb(38, 76, 89);
     --light-green: rgb(172, 198, 201);
     --light-grey: #f1f1f4;
-    --text-color-light: #f1f1f1;
-    --text-color-dark: #333;
     --text-color-danger: rgb(152, 58, 58);
+    --text-color-dark: #333;
+    --text-color-light: #f1f1f1;
     --white: #f1f1f1;
 }
 
 /* ---------- Body and HTML ---------- */
 body,
 html {
-    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
-    line-height: 1.5;
-    font-weight: 400;
-    color: var(--text-color-dark);
-    height: 100%;
-    padding: 0;
-    margin: 0;
     background-color: var(--light-green);
+    color: var(--text-color-dark);
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    height: 100%;
+    line-height: 1.5;
+    margin: 0;
+    padding: 0;
 }
 
 /* ---------- Navigation Styling ---------- */
 nav {
-    display: grid;
     background-color: var(--green);
-    position: fixed;
-    top: 0;
+    display: grid;
     left: 0;
+    position: fixed;
     right: 0;
     text-align: center;
+    top: 0;
 }
 
 @media (min-width: 600px) {
