@@ -78,11 +78,24 @@ p {
 
 /* ---------- Page Styling ---------- */
 .page {
+    animation: fadeIn 0.5s;
     padding: 200px 2em;
 }
 
 @media (min-width: 600px) {
     .page {
         padding: 100px 2em;
+    }
+}
+
+/* ---------- Animations ---------- */
+/* fade in */
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
     }
 }
