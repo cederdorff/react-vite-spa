@@ -6,15 +6,17 @@ import ContactPage from "./pages/ContactPage";
 
 function App() {
     return (
-        <main>
+        <>
             <Nav />
-            <Routes>
-                <Route path="/" element={<HomePage />} />
-                <Route path="/about" element={<AboutPage />} />
-                <Route path="/contact" element={<ContactPage />} />
-                <Route path="*" element={<Navigate to="/" />} />
-            </Routes>
-        </main>
+            <main>
+                <Routes>
+                    <Route path="/" element={<HomePage />} />
+                    <Route path="/about" element={<AboutPage />} />
+                    <Route path="/contact" element={<ContactPage />} />
+                    <Route path="*" element={<Navigate to="/" />} />
+                </Routes>
+            </main>
+        </>
     );
 }
 
