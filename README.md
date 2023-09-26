@@ -1,5 +1,5 @@
-# RACE Your React 🎉
+# React with RACE 🚀
 
-Get started with React in Vite quickly using this starter template. It includes HMR (Hot Module Replacement) and essential ESLint rules.
+Jumpstart your React project in Vite with this blazing-fast Single Page Application starter template. Benefit from HMR (Hot Module Replacement) and crucial ESLint rules.
 
-A RACE customisation of the original Vite Starter Template available at https://vitejs.dev/guide.
+A RACE implementation of a Single Page Application using React Router v6 and Page Components. Get ready to sprint ahead 🏁
