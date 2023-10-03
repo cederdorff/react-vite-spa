@@ -107,25 +107,25 @@ h3 {
 }
 
 /* ---------- grid container styling ---------- */
-.grid-container {
+.grid {
     display: grid;
     grid-template-columns: 1fr;
     gap: 1em;
 }
 
 @media (min-width: 600px) {
-    .grid-container {
+    .grid {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width: 992px) {
-    .grid-container {
+    .grid {
         grid-template-columns: 1fr 1fr 1fr;
     }
 }
 
-.grid-container > article {
+.grid > article {
     box-shadow: 1px 1px 8px rgba(0, 0, 0, 0.25);
     padding: 1.5em;
     background-color: var(--white);
@@ -134,15 +134,15 @@ h3 {
     cursor: pointer;
 }
 
-.grid-container > article ::first-letter {
+.grid > article ::first-letter {
     text-transform: uppercase;
 }
 
-.grid-container > article:hover {
+.grid > article:hover {
     box-shadow: 0 8px 16px 0 var(--green);
 }
 
-.grid-container > article img {
+.grid > article img {
     width: 100%;
     height: 200px;
     object-fit: cover;
