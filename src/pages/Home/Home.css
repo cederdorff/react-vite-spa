@@ -1,0 +1,4 @@
+#home p {
+    background-color: var(--green);
+    color: var(--light-grey);
+}
