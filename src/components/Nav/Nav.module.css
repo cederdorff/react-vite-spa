@@ -1,5 +1,5 @@
 /* ---------- Navigation Styling ---------- */
-#nav {
+.nav {
   background-color: var(--green);
   display: grid;
   left: 0;
@@ -10,14 +10,14 @@
 }
 
 @media (min-width: 600px) {
-  #nav {
+  .nav {
     padding: 1em 2em;
     grid-template-columns: 1fr 1fr 1fr;
   }
 }
 
 /* Style the links inside the navigation bar */
-#nav a {
+.nav a {
   display: inline-block;
   color: var(--text-color-light);
   text-align: center;
@@ -31,13 +31,13 @@
 }
 
 /* Change the color of links on hover */
-#nav a:hover {
+a:hover {
   background-color: var(--light-green);
   color: var(--text-color-dark);
 }
 
 /* Add a color to the active/current link */
-#nav a.active {
+nav a.active {
   background-color: var(--light-green);
   color: var(--green);
 }
