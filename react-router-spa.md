@@ -250,7 +250,7 @@ Nu har du en fuldt fungerende app med navigation og flere sider, bygget op trin 
 
 Det er rart at din app ser lidt pæn ud. Du kan tilføje en simpel CSS-fil:
 
-### src/styles.css
+### src/index.css
 
 ```css
 body {
@@ -332,7 +332,7 @@ Din nuværende CSS er meget simpel. Lad os gøre den mere professionel:
 **Mål:** Tilføj CSS custom properties (variabler) og forbedre designet.
 
 **Sådan gør du:**
-Erstat indholdet i `src/styles.css` med denne forbedrede version:
+Erstat indholdet i `src/index.css` med denne forbedrede version:
 
 ```css
 /* ---------- Root Variables ---------- */
@@ -454,7 +454,7 @@ function Nav() {
 export default Nav;
 ```
 
-2. **Tilføj CSS for aktiv navigation i `src/styles.css`:**
+2. **Tilføj CSS for aktiv navigation i `src/index.css`:**
 
 Tilføj disse linjer til din CSS (efter de eksisterende nav regler):
 
