@@ -54,7 +54,7 @@ import { StrictMode } from "react";
 import ReactDOM from "react-dom/client";
 import { BrowserRouter } from "react-router";
 import App from "./App.jsx";
-import "./styles.css";
+import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <StrictMode>
@@ -199,7 +199,7 @@ import { Link } from "react-router";
 function Nav() {
   return (
     <nav>
-      <Link to="/">Forside</Link> | <Link to="/about">Om</Link> |{" "}
+      <Link to="/">Forside</Link> | <Link to="/about">Om</Link> |
       <Link to="/contact">Kontakt</Link>
     </nav>
   );
