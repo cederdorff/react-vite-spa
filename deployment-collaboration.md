@@ -2,6 +2,10 @@
 
 Denne guide hjælper dig med at oprette dit eget React projekt, deploye det til GitHub Pages, og samarbejde med andre via GitHub.
 
+- **Del 1 til 4** kan udføres af én i gruppen, men alle gruppemedlemmer må gerne følge med, så I er bevidste om processen.
+- **Del 5 til 9** laves som samarbejde mellem alle gruppemedlemmer. 
+
+
 ---
 
 ## Del 1: Opret dit projekt fra template
